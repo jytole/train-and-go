@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Train and Go</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="./images/logotmp.png">
+<style>
+    body {font-family: "Lato", sans-serif}
+
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+    }
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+</style>
+</head>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="../index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="../index.html#team" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TEAM</a>
+    <a href="../index.html#deliverables" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DELIVERABLES</a>
+    <a href="" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MEDIA</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#team" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TEAM</a>
+  <a href="#deliverables" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DELIVERABLES</a>
+  <a href="./images/index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MEDIA</a>
+</div>
+
+<body>
+          <p>Train and Go Preview Video</p>
+          <iframe width="100%" height="auto" src="https://www.youtube.com/embed/Y9X-Fobqgq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <div class="gallery">
+    <a target="_blank" href="./images/UnrealImage1.png">
+      <img src="./images/UnrealImage1.png" alt="Unreal Engine Render" width="600" height="400">
+    </a>
+    <div class="desc">Unreal Engine Rendering of the Demo Environment</div>
+    </div>
+    
+  <div class="gallery">
+    <a target="_blank" href="./images/chair_trip.jpg">
+      <img src="./images/chair_trip.jpg" alt="Garrett Driving the Wheelchair" width="600" height="400">
+    </a>
+    <div class="desc">Garrett driving the Permobil M5 for the first time</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="./images/brake_lights.jpg">
+      <img src="./images/brake_lights.jpg" alt="Brake Lights" width="600" height="400">
+    </a>
+    <div class="desc">The brake lights of the Permobil M5</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="./images/joystick.jpg">
+      <img src="./images/joystick.jpg" alt="Joystick" width="600" height="400">
+    </a>
+    <div class="desc">The joystick of the Permobil M5</div>
+  </div>
+</body>
+</html>
